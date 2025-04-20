@@ -1,0 +1,12 @@
+{
+    "name": "classroom-assignment",
+    "version": "1.0.0",
+    "description": "GitHub Classroom Assignment",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --json --outputFile=.results.json && node process-results.js"
+    },
+    "dependencies": {
+      "jest": "^29.5.0"
+    }
+  }
